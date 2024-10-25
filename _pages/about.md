@@ -22,6 +22,3 @@ I am currently PhD student majoring Electrical Engineering at University of Sout
 My research interest includes Visual Representation Learning, Generative AI for Health and Speech Science, Multi-modal models for Human Subject Interactions & Behavior Analysis.. Feel free to reach out me for research colaboration at hongn@usc.edu
 
 Beyond technical expertise, I am also boardgame lover and hiker. Yet, I have only visited 4/63 National Parks in the US.
-<!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
