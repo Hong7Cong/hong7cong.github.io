@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A long announcement with details
+title: This website is on air...
 date: 2024-10-24 16:11:00-0400
 inline: false
 related_posts: false

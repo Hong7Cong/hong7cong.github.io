@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://sail.usc.edu/'>USC</a>. Los Angeles. 3237879669. Live a life you will never regret.
 
 profile:
   align: right
