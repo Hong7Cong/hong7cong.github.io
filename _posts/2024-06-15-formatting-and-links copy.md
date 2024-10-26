@@ -1,6 +1,6 @@
 ---
 layout: post
-title: a post with formatting and links
+title: It seemed like everything really worked together or just I thought it was
 date: 2024-06-15 16:40:16
 description: march & april, looking forward to summer
 tags: formatting links
