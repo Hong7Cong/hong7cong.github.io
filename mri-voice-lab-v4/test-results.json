@@ -1,0 +1,246 @@
+{
+  "status": "passed",
+  "neutralFrames": 210,
+  "extremeControlChecks": 132,
+  "maxIndependentHandleErrorPx": 8.370154607155023e-7,
+  "spectralDistance": 0.23086081377269596,
+  "baselineRms": 0.03908807104448298,
+  "editedRms": 0.03907515529220096,
+  "sampleRates": [
+    44100,
+    48000
+  ],
+  "cases": [
+    {
+      "key": "tipX",
+      "request": -100,
+      "actual": -3.602,
+      "valid": true,
+      "peaks": [
+        740,
+        1420,
+        2480
+      ]
+    },
+    {
+      "key": "tipX",
+      "request": 100,
+      "actual": 0.493,
+      "valid": true,
+      "peaks": [
+        780,
+        1440,
+        2360
+      ]
+    },
+    {
+      "key": "tipY",
+      "request": -100,
+      "actual": -3.359,
+      "valid": true,
+      "peaks": [
+        700,
+        1400,
+        2580
+      ]
+    },
+    {
+      "key": "tipY",
+      "request": 100,
+      "actual": 1.217,
+      "valid": true,
+      "peaks": [
+        800,
+        1440,
+        2320
+      ]
+    },
+    {
+      "key": "dorsumX",
+      "request": -100,
+      "actual": -3.7,
+      "valid": true,
+      "peaks": [
+        760,
+        1340,
+        2440
+      ]
+    },
+    {
+      "key": "dorsumX",
+      "request": 100,
+      "actual": 2.296,
+      "valid": true,
+      "peaks": [
+        800,
+        1480,
+        2360
+      ]
+    },
+    {
+      "key": "dorsumY",
+      "request": -100,
+      "actual": -2.128,
+      "valid": true,
+      "peaks": [
+        680,
+        1520,
+        2080
+      ]
+    },
+    {
+      "key": "dorsumY",
+      "request": 100,
+      "actual": 2.584,
+      "valid": true,
+      "peaks": [
+        820,
+        1360,
+        2600
+      ]
+    },
+    {
+      "key": "rootX",
+      "request": -100,
+      "actual": -5,
+      "valid": true,
+      "peaks": [
+        640,
+        2060,
+        2320
+      ]
+    },
+    {
+      "key": "rootY",
+      "request": -100,
+      "actual": -4.676,
+      "valid": true,
+      "peaks": [
+        800,
+        1500,
+        2480
+      ]
+    },
+    {
+      "key": "rootY",
+      "request": 100,
+      "actual": 5.606,
+      "valid": true,
+      "peaks": [
+        720,
+        1540,
+        2300
+      ]
+    },
+    {
+      "key": "lipGap",
+      "request": -100,
+      "actual": -0.525,
+      "valid": true,
+      "peaks": [
+        780,
+        1420,
+        2320
+      ]
+    },
+    {
+      "key": "lipGap",
+      "request": 100,
+      "actual": 1.659,
+      "valid": true,
+      "peaks": [
+        800,
+        1460,
+        2480
+      ]
+    },
+    {
+      "key": "lipForward",
+      "request": -100,
+      "actual": -0.616,
+      "valid": true,
+      "peaks": [
+        800,
+        1440,
+        2380
+      ]
+    },
+    {
+      "key": "lipForward",
+      "request": 100,
+      "actual": 0.557,
+      "valid": true,
+      "peaks": [
+        780,
+        1420,
+        2340
+      ]
+    },
+    {
+      "key": "jaw",
+      "request": -100,
+      "actual": -0.249,
+      "valid": true,
+      "peaks": [
+        780,
+        1440,
+        2360
+      ]
+    },
+    {
+      "key": "jaw",
+      "request": 100,
+      "actual": 2.479,
+      "valid": true,
+      "peaks": [
+        800,
+        1440,
+        2440
+      ]
+    },
+    {
+      "key": "velum",
+      "request": -100,
+      "actual": -0.35,
+      "valid": true,
+      "peaks": [
+        780,
+        1420,
+        2380
+      ]
+    },
+    {
+      "key": "velum",
+      "request": 100,
+      "actual": 0.247,
+      "valid": true,
+      "peaks": [
+        780,
+        1440,
+        2360
+      ]
+    },
+    {
+      "key": "larynx",
+      "request": -100,
+      "actual": -1.44,
+      "valid": true,
+      "peaks": [
+        800,
+        1460,
+        2400
+      ]
+    },
+    {
+      "key": "larynx",
+      "request": 100,
+      "actual": 1.141,
+      "valid": true,
+      "peaks": [
+        760,
+        1400,
+        2340
+      ]
+    }
+  ]
+}
