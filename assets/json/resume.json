@@ -1,200 +1,172 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Hong Tien Nguyen",
+    "label": "Ph.D. Student, Electrical and Computer Engineering, University of Southern California",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "nguyentienhong1997@gmail.com",
+    "phone": "323-787-9669",
+    "url": "https://hong7cong.github.io",
+    "summary": "Research interests: human-centered video understanding, temporal dynamics in the context of medical imaging, clinical trials, and seamless dyadic interaction.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "RTH 318, University of Southern California",
+      "postalCode": "CA 90089",
+      "city": "Los Angeles",
       "countryCode": "US",
       "region": "California"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "Google Scholar",
+        "username": "9OlFAGwAAAAJ",
+        "url": "https://scholar.google.com/citations?user=9OlFAGwAAAAJ"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "hong-nguyen-19b9161b9",
+        "url": "https://www.linkedin.com/in/hong-nguyen-19b9161b9"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Signal Analysis and Interpretation Laboratory (SAIL), University of Southern California",
+      "position": "Research Assistant",
+      "url": "https://sail.usc.edu/",
+      "location": "Los Angeles, CA",
+      "startDate": "2023-09-01",
+      "highlights": [
+        "Develop explainable multimodal models of human temporal dynamics across video and speech, with 10+ publications",
+        "Partner with 3+ multidisciplinary teams (law enforcement, healthcare, linguistics, psychology) to build AI pipelines"
+      ]
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "Leadership and Involvement",
+      "position": "Activities",
+      "highlights": [
+        "Research mentoring (5+ mentees)",
+        "CVPR / NeurIPS reviewer (5+ papers)",
+        "Proposal writing (2) and webpage management (2)",
+        "Temasek Community Action and Leadership Exchange (2019)",
+        "USC ECE Research Festival (2024)"
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "url": "https://www.usc.edu/",
+      "area": "Electrical and Computer Engineering (Advisor: Shrikanth Narayanan)",
+      "studyType": "Ph.D.",
+      "startDate": "2021-09-01",
+      "endDate": "2027-12-01",
+      "courses": []
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "1st Place, Zalo AI Challenge",
+      "date": "2022",
+      "awarder": "Zalo AI"
+    },
+    {
+      "title": "VinGroup Fellowship",
+      "awarder": "VinGroup"
+    },
+    {
+      "title": "Honda Young Engineers and Scientists Award",
+      "awarder": "Honda Foundation"
     }
   ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
+  "certificates": [],
+  "publications": [],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
+      "name": "Programming Languages",
+      "icon": "fa-solid fa-code",
+      "keywords": ["Python", "C/C++", "Linux / Shell Scripting"]
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "name": "Machine Learning",
+      "icon": "fa-solid fa-brain",
+      "keywords": ["PyTorch/XLA", "Hugging Face", "OpenCV", "Scikit-learn", "Matplotlib"]
+    },
+    {
+      "name": "Distributed Computing",
+      "icon": "fa-solid fa-server",
+      "keywords": ["HPC", "Kubernetes", "AWS", "GCP"]
+    },
+    {
+      "name": "Tools",
+      "icon": "fa-solid fa-screwdriver-wrench",
+      "keywords": ["Coding Agents (Claude Code, Codex)", "Git", "Conda"]
     }
   ],
+  "languages": [],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Research",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Human-centered Video Understanding",
+        "Temporal Dynamics in Medical Imaging",
+        "Clinical Trials",
+        "Seamless Dyadic Interaction"
       ]
     }
   ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
+  "references": [],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Speech Production on Real-time MRI Video",
+      "summary": "Video world models, diffusion synthesis, and multimodal encoders for real-time MRI of the vocal tract.",
+      "startDate": "2023-09-01",
+      "highlights": [
+        "Built Arti-JEPA, a video world model for rtMRI speech production analysis that doubles cross-domain phoneme decoding over pretrained baselines and supports applications to clinical speech (CSL submission)",
+        "Developed Speech2rtMRI, the first audio-guided diffusion model for real-time MRI synthesis of the vocal tract, with up to 34% of samples misidentified as authentic by expert phoneticians (ICASSP 2025)",
+        "Engineered a multimodal video encoder for real-time MRI fusing optical flow with 6-channel region-of-interest inputs, reducing phoneme recognition error rate by 5% (ICASSP 2026)"
+      ]
+    },
+    {
+      "name": "Temporal Dynamics in Human Speech and Gestures",
+      "summary": "Motion-centric video understanding and rigorous evaluation of human behavior models.",
+      "startDate": "2024-10-01",
+      "highlights": [
+        "Developed MOOSE, a motion-centric video encoder for fine-grained human activity understanding (TMLR submission)",
+        "Improved detection of atypical motor behaviors in autism by 6% accuracy, with enhanced saliency-based explainability",
+        "Audited evaluation practices in co-speech gesture research, showing learned judges exploit speaker and session shortcuts (0.92 accuracy with no true coupling), and proposed 3 controls for rigorous evaluation (ICASSP 2027 submission)"
+      ]
+    },
+    {
+      "name": "Egocentric Officer-Civilian Interaction on Traffic Stops",
+      "summary": "Large-scale analysis of body-worn camera footage.",
+      "startDate": "2024-12-01",
+      "highlights": [
+        "Designed a video embedding extraction pipeline and setting selection on 30K+ body-worn videos of traffic stops",
+        "Analyzed 2K+ annotated videos of multimodal collaborative officer-civilian activity from multiple views"
+      ]
+    },
+    {
+      "name": "Multimodal Human Trust Perception",
+      "summary": "In partnership with Capital One.",
+      "startDate": "2025-09-01",
+      "endDate": "2026-03-01",
+      "highlights": [
+        "Collected and benchmarked the EVALUATE dataset (920 ads), exposing gaps in emotion and trust perception",
+        "Showed via label-stability analysis that survey design systematically shifts human annotator judgments"
+      ]
+    },
+    {
+      "name": "Image Severity Ranking in Ophthalmology",
+      "summary": "Expert-centric severity representation learning for medical images.",
+      "startDate": "2022-09-01",
+      "endDate": "2023-12-01",
+      "highlights": [
+        "Designed ConPrO, a severity representation learning framework combining contrastive learning and preference optimization, outperforming state-of-the-art methods by 6% in F1 score (CVPRW 2024)",
+        "Developed SiameN and SEMISE, expert-centric severity ranking models, improving IoU explainability by 6% and ranking performance by 3% in F1 score (ISBI 2025, EMBC 2025, Ophthalmology Science 2025)"
+      ]
     }
   ]
 }

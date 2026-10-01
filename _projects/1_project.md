@@ -1,81 +1,57 @@
 ---
 layout: page
-title: Audio-Visual Synthesis for Speech Production
-description: with background image
-img: assets/img/12.jpg
+title: Speech Production on Real-time MRI Video
+description: Video world models, diffusion synthesis, and multimodal encoders for real-time MRI of the vocal tract
+img:
 importance: 1
-category: work
+category: ongoing
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+**Sep 2023 – Present** · Signal Analysis and Interpretation Laboratory (SAIL), USC
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Real-time MRI (rtMRI) captures the full vocal tract in motion during speech: tongue, lips, velum, and larynx. This makes it a uniquely rich signal for studying how humans produce speech. It also matters for clinical speech applications. This project develops video models that learn the temporal dynamics of articulation directly from rtMRI.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+#### Interactive demo: MRI Voice Lab
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+Drag the tongue (tip, dorsum, root), lips, jaw, velum, or larynx on a real-time MRI clip. You can see the airway change and hear a vocal-tract model respond. Each articulator's motion is limited to the range observed in this clip. Sound comes from a simplified tube model of the vocal tract, so it is an illustration, not a reconstruction of the speaker's voice. Press **Play clip** to hear the original recording, or drag any handle to switch to live synthesis.
+
+<div class="mri-voice-lab-embed mb-2">
+  <iframe
+    id="mri-voice-lab"
+    src="{{ '/assets/mri-voice-lab/index.html' | relative_url }}"
+    title="MRI Voice Lab: interactive real-time MRI vocal tract demo"
+    loading="lazy"
+    allow="autoplay"
+    style="width: 100%; height: 1150px; border: 1px solid var(--global-divider-color); border-radius: 8px; background: #f6f2ef"
+  ></iframe>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+<p class="text-right small">
+  <a href="{{ '/assets/mri-voice-lab/index.html' | relative_url }}" target="_blank" rel="noopener noreferrer">Open the demo full screen <i class="fa-solid fa-up-right-from-square"></i></a>
+</p>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+<script>
+  // Grow the iframe to fit the demo so it doesn't need its own scrollbar.
+  (function () {
+    const frame = document.getElementById("mri-voice-lab");
+    const fit = () => {
+      try {
+        const doc = frame.contentDocument;
+        if (doc && doc.documentElement) frame.style.height = doc.documentElement.scrollHeight + "px";
+      } catch (e) {}
+    };
+    frame.addEventListener("load", () => {
+      fit();
+      try {
+        new ResizeObserver(fit).observe(frame.contentDocument.documentElement);
+      } catch (e) {}
+    });
+  })();
+</script>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+#### Highlights
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+- **Arti-JEPA**: a video world model adapted to rtMRI for speech-production analysis. It doubles cross-domain phoneme decoding over pretrained baselines and supports a range of downstream applications to clinical speech {% cite nguyen2026artijepa %}.
+- **Speech2rtMRI**: the first audio-guided diffusion model for real-time MRI synthesis of the vocal tract. Expert phoneticians misidentified up to 34% of the generated samples as authentic {% cite nguyen2025speech2rtmri %}.
+- **Interpretable articulatory modeling**: a multimodal video encoder for rtMRI that fuses optical flow with 6-channel region-of-interest inputs, reducing phoneme recognition error rate by 5% {% cite park2026interpretable %}.
+- **Articulation vs. acoustics**: disentangling the contributions of articulatory and acoustic signals in multimodal phoneme recognition {% cite foley2025disentangling %}.

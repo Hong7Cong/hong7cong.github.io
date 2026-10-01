@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-My short paper on `Severity Ranking` got accepted at CVPR Workshop 2025 :sparkles: :smile:
+My short paper on `Severity Ranking` got accepted at CVPR Workshop 2024 :sparkles: :smile:
