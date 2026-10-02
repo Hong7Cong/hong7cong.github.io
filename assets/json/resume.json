@@ -109,12 +109,7 @@
     {
       "name": "Research",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Human-centered Video Understanding",
-        "Temporal Dynamics in Medical Imaging",
-        "Clinical Trials",
-        "Seamless Dyadic Interaction"
-      ]
+      "keywords": ["Human-centered Video Understanding", "Temporal Dynamics in Medical Imaging", "Clinical Trials", "Seamless Dyadic Interaction"]
     }
   ],
   "references": [],

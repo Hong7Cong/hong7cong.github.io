@@ -16,7 +16,7 @@ February 19—about a month after I confessed and was gently turned down—you g
 > Where the sky is filled with laughter\
 > And the night is for tears
 
-It seemed like everything really worked together (or so I just thought it was) with the right person at the wrong time. If I had met you later or earlier, maybe things would have been different.. 
+It seemed like everything really worked together (or so I just thought it was) with the right person at the wrong time. If I had met you later or earlier, maybe things would have been different..
 
 Thật buồn khi mối tình đầu lại chỉ là tình đơn phương. Tôi chưa bao giờ thích ai nhiều đến thế, cuộc tình đơn phương này làm tôi suy nghĩ lại về cuộc đời mình, về tuổi trẻ đang dần qua đi bởi lý do đơn giản là xây dựng sự nghiệp. Tôi nghĩ về những viễn cảnh khi mình không quá tập trung vào lý tưởng, vào giấc mơ thế giới, có một công việc bình thường ở Việt Nam, tôi sẽ theo đuổi em hết mình. Nhưng dường như tất cả chỉ như một giấc mơ. Thích một cô gái không thích mình thật khó để chấp nhận \
 
@@ -28,4 +28,3 @@ Ngày 19/2 Sau khi đã nói lời từ chối tình cảm 1 tháng trước, em
 > Và màn đêm dành cho nước mắt\
 
 Dường như mọi thứ thực sự hợp nhau (hoặc do mỗi mình tôi nghĩ thế) đúng người nhưng sai thời điểm. Giá như tôi gặp em muộn hơn hoặc sớm hơn thì có lẽ mọi chuyện đã khác.
-
