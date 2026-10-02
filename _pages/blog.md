@@ -2,7 +2,8 @@
 layout: default
 permalink: /blog/
 title: blog
-nav: true
+nav: false
+published: false # blog page disabled; set to true (and nav: true) to bring it back
 nav_order: 1
 pagination:
   enabled: true
