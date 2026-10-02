@@ -2,11 +2,17 @@
 layout: page
 title: Speech Production on Real-time MRI Video
 description: Video world models, diffusion synthesis, and multimodal encoders for real-time MRI of the vocal tract
-img:
+img: assets/img/publication_preview/rtmri_avatar.png
 importance: 1
 category: ongoing
 related_publications: true
 ---
+
+<div class="row justify-content-sm-center mb-3">
+  <div class="col-sm-10">
+    {% include figure.liquid loading="eager" path="assets/img/publication_preview/rtmri_avatar.png" alt="MRI Voice Lab: articulator contours for lips, jaw, tongue, velum, and larynx traced on a real-time MRI frame" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
 
 **Sep 2023 – Present** · Signal Analysis and Interpretation Laboratory (SAIL), USC
 

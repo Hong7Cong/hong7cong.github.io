@@ -2,11 +2,17 @@
 layout: page
 title: Image Severity Ranking in Ophthalmology
 description: Expert-centric severity representation learning for medical images
-img:
+img: assets/img/publication_preview/fundus_retina.jpg
 importance: 2
 category: past
 related_publications: true
 ---
+
+<div class="row justify-content-sm-center mb-3">
+  <div class="col-sm-10">
+    {% include figure.liquid loading="eager" path="assets/img/publication_preview/fundus_retina.jpg" alt="Fundus photograph of the retina" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
 
 **Sep 2022 – Dec 2023** · USC, with collaborators in ophthalmology
 

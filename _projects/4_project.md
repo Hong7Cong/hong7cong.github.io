@@ -2,10 +2,16 @@
 layout: page
 title: Multimodal Human Trust Perception
 description: Benchmarking emotion and trust perception in advertising, with Capital One
-img:
+img: assets/img/publication_preview/EVALUATE.png
 importance: 1
 category: past
 ---
+
+<div class="row justify-content-sm-center mb-3">
+  <div class="col-sm-10">
+    {% include figure.liquid loading="eager" path="assets/img/publication_preview/EVALUATE.png" alt="AI-generated illustration of how viewer trust changes over the course of a video ad" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
 
 **Sep 2025 – Mar 2026** · In partnership with Capital One
 
