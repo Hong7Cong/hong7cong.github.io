@@ -8,10 +8,15 @@ category: ongoing
 related_publications: true
 ---
 
-<div class="row justify-content-sm-center mb-3">
+<div class="row justify-content-sm-center mb-1">
   <div class="col-sm-10">
-    {% include figure.liquid loading="eager" path="assets/img/publication_preview/rtmri_avatar.png" alt="MRI Voice Lab: articulator contours for lips, jaw, tongue, velum, and larynx traced on a real-time MRI frame" class="img-fluid rounded z-depth-1" %}
+    <a href="{{ '/assets/mri-voice-lab-v4/index.html' | relative_url }}" target="_blank" rel="noopener noreferrer" title="Open the MRI Voice Lab interactive demo">
+      {% include figure.liquid loading="eager" path="assets/img/publication_preview/rtmri_avatar.png" alt="MRI Voice Lab: articulator contours for lips, jaw, tongue, velum, and larynx traced on a real-time MRI frame" class="img-fluid rounded z-depth-1" %}
+    </a>
   </div>
+</div>
+<div class="caption mb-4">
+  Click the image to open <b>MRI Voice Lab</b>, an interactive demo: drag the tongue, lips, jaw, velum, or larynx on a real-time MRI clip and hear a simplified vocal-tract model respond.
 </div>
 
 **Sep 2023 – Present** · Signal Analysis and Interpretation Laboratory (SAIL), USC
